@@ -1,8 +1,64 @@
-.create-input{
-    background: #fff;
-    height: 48px;
-    border-radius: 80px;
-    font-size: 14px;
-    text-align: left;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+.create-input {
+  background: #fff;
+  height: 48px;
+  border-radius: 80px;
+  font-size: 14px;
+  text-align: left;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.space {
+  margin-bottom: 29px;
+  display: flex;
+  height: 60px;
+}
+
+.searching-container {
+  display: flex;
+  flex-wrap: wrap;
+  .searching-input {
+    background: #eef3f8;
+    height: 34px;
+    border-radius: 8px;
+    border: 0;
+    width: 280px;
+    margin-top: 12px;
+  }
+}
+
+.icons-menu {
+  display: flex;
+  flex-direction: inherit;
+  padding-left: 157px;
+  padding-top: 10px;
+  gap: 15px;
+}
+
+.borde {
+  padding-right: 20px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.color-image {
+  filter: contrast(0%);
+}
+
+.img-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-tittle {
+  font-size: 12px;
+  font-weight: 100;
+  margin: 0 !important;
+}
+
+@media (width: 1020px) {
+  .searching-container {
+    .searching-input {
+      display: none !important;
+    }
+  }
 }
