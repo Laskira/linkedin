@@ -1,0 +1,26 @@
+.recent-title {
+  padding: 20px 0 0 20px;
+}
+
+.icon {
+  height: 12px;
+  width: 12px;
+}
+a:link {
+  text-decoration: none;
+}
+.item:hover {
+    width: 100%;
+    display: inline-block;
+  background: rgba(0, 0, 0, 0.1);
+}
+.borde-container {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  .ver{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+  }

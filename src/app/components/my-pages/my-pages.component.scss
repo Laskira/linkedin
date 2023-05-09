@@ -1,0 +1,28 @@
+.title-pages {
+    font-size: 17px;
+    text-align: left;
+    padding: 20px;
+}
+
+.item-container{
+    display: flex;
+}
+
+.pages-container{
+    margin: -15px -25px 0;
+}
+
+.container-text{
+
+    .title-item{
+        font-size: 14px;
+    }
+    
+    .notification-item{
+        font-size: 12px;
+        .num-notification{
+            padding-left: 6px;
+            color: #0a66c2;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.create-container{
+    height: 116px;
+    padding: 15px 15px 0 15px;
+    margin: 0 0 20px 0;
+
+    .form-container{
+        display: flex;
+    flex-direction: column;
+    }
+}
+
+.create-input{
+    background: #fff;
+    height: 48px;
+    border-radius: 80px;
+    font-size: 14px;
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.post-button{
+    height: 24px;
+    border: 2px solid #00ac1e;
+    margin: 20px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.post-button:hover{
+    background: #00ac1e;
+    color: #fff;
+}

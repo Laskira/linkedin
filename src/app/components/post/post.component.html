@@ -1,0 +1,11 @@
+<div class="color-container sesion-container espaciado">
+  <div class="data-container">
+    <p class="fecha">{{ post.fecha | timeDiff}}</p>
+  </div>
+
+  <h3 class="post-text">{{ post.description }}</h3>
+
+  <div class="button-container">
+    <button (click)="deleteTask(post)" class="btn-delete">Delete post</button>
+  </div>
+</div>

@@ -1,0 +1,35 @@
+.btn-delete {
+  height: 24px;
+  border: 2px solid #fb443a;
+  background: #fff;
+  border-radius: 8px;
+  margin: -7px 20px 10px 3px;
+}
+
+.btn-delete:hover {
+  background: #fb443a;
+  color: #fff;
+}
+
+.post-text{
+  font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+    text-align: center;
+}
+.button-container{
+  align-items: end;
+    display: flex;
+    flex-direction: column;
+}
+
+.data-container{padding-top: 4px;}
+
+.espaciado{
+  margin-top: 12px;
+}
+
+.fecha{
+  font-size: 12px;
+  margin-left: 10px;
+}

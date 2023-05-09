@@ -1,0 +1,78 @@
+.identity-container {
+  padding: 1.2rem 1.2rem 1.6rem;
+}
+
+.user-portada {
+  background-image: url(../../../assets/img/portada.jpg);
+  background-position: center;
+  background-size: cover;
+  display: block;
+  height: 56.25px;
+  margin: -1.2rem -1.2rem 0;
+  border-radius: 11px 11px 0 0;
+}
+.user-text {
+  color: #000;
+}
+.user-img {
+  margin: -38px 60px 1.2rem;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  
+}
+
+.name{
+    font-weight:600;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited,
+a:visited:hover {
+  color: var(#8344cc);
+}
+
+.little-num {
+  font-size: 12px;
+  color: #0a66c2;
+}
+.marcador{
+    height: 22px;
+    width: 22px;
+}
+.borde-container {
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.list-container{
+    display: block;
+    padding: .4rem 1.2rem;
+}
+
+.list-item {
+    display: flex;
+    .text-item{
+        max-width: 120px;
+        text-align: right;
+    }
+    .num{
+        text-align: left;
+        padding-left: 20px;
+    }
+}
+
+.marcador-container{
+    padding: 1.2em;
+    display: flex;
+    align-items: center; 
+}
+
+
+
+
+@media (max-width: 768px) {
+  .user-img{
+    margin: -38px 295px 35px;
+  }
+}

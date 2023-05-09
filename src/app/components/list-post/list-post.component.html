@@ -1,0 +1,12 @@
+<div *ngIf="posts.length > 0; else noData">
+  <button class="btn-ordenar" (click)="cambiarOrder()">Ordenar</button>
+  <app-post *ngFor="let post of posts" [post]="post"></app-post>
+
+
+</div>
+
+<ng-template #noData >
+    <div class="color-container sesion-container">
+        <h2 class="gray-text">Hey, aún no has publicado nada</h2>
+      </div>
+</ng-template>
