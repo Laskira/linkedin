@@ -13,7 +13,7 @@ export class PostComponent {
   constructor(public postService: PostService) {}
 
   deleteTask(post: Post) {
-    if (confirm('¿Estás seguro de eliminar esta publicacion? Recuerda, no podrá recurarse después')) {
+    if (confirm('¿Estás seguro de eliminar esta publicacion? Recuerda, no podrá recuperarse después')) {
       this.postService.deletePost(post);
     }
   }
